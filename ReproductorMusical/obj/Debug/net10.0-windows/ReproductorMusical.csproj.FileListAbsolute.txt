@@ -1,0 +1,17 @@
+C:\Users\Andri\Documents\Repositorios\IPC2_Practica2_202505058_2S2026\ReproductorMusical\bin\Debug\net10.0-windows\ReproductorMusical.exe
+C:\Users\Andri\Documents\Repositorios\IPC2_Practica2_202505058_2S2026\ReproductorMusical\bin\Debug\net10.0-windows\ReproductorMusical.deps.json
+C:\Users\Andri\Documents\Repositorios\IPC2_Practica2_202505058_2S2026\ReproductorMusical\bin\Debug\net10.0-windows\ReproductorMusical.runtimeconfig.json
+C:\Users\Andri\Documents\Repositorios\IPC2_Practica2_202505058_2S2026\ReproductorMusical\bin\Debug\net10.0-windows\ReproductorMusical.dll
+C:\Users\Andri\Documents\Repositorios\IPC2_Practica2_202505058_2S2026\ReproductorMusical\bin\Debug\net10.0-windows\ReproductorMusical.pdb
+C:\Users\Andri\Documents\Repositorios\IPC2_Practica2_202505058_2S2026\ReproductorMusical\obj\Debug\net10.0-windows\ReproductorMusical.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Andri\Documents\Repositorios\IPC2_Practica2_202505058_2S2026\ReproductorMusical\obj\Debug\net10.0-windows\ReproductorMusical.AssemblyInfoInputs.cache
+C:\Users\Andri\Documents\Repositorios\IPC2_Practica2_202505058_2S2026\ReproductorMusical\obj\Debug\net10.0-windows\ReproductorMusical.AssemblyInfo.cs
+C:\Users\Andri\Documents\Repositorios\IPC2_Practica2_202505058_2S2026\ReproductorMusical\obj\Debug\net10.0-windows\ReproductorMusical.csproj.CoreCompileInputs.cache
+C:\Users\Andri\Documents\Repositorios\IPC2_Practica2_202505058_2S2026\ReproductorMusical\obj\Debug\net10.0-windows\ReproductorMusical.sourcelink.json
+C:\Users\Andri\Documents\Repositorios\IPC2_Practica2_202505058_2S2026\ReproductorMusical\obj\Debug\net10.0-windows\ReproductorMusical.dll
+C:\Users\Andri\Documents\Repositorios\IPC2_Practica2_202505058_2S2026\ReproductorMusical\obj\Debug\net10.0-windows\refint\ReproductorMusical.dll
+C:\Users\Andri\Documents\Repositorios\IPC2_Practica2_202505058_2S2026\ReproductorMusical\obj\Debug\net10.0-windows\ReproductorMusical.pdb
+C:\Users\Andri\Documents\Repositorios\IPC2_Practica2_202505058_2S2026\ReproductorMusical\obj\Debug\net10.0-windows\ReproductorMusical.genruntimeconfig.cache
+C:\Users\Andri\Documents\Repositorios\IPC2_Practica2_202505058_2S2026\ReproductorMusical\obj\Debug\net10.0-windows\ref\ReproductorMusical.dll
+C:\Users\Andri\Documents\Repositorios\IPC2_Practica2_202505058_2S2026\ReproductorMusical\obj\Debug\net10.0-windows\ReproductorMusical.Forms.VentanaPrincipal.resources
+C:\Users\Andri\Documents\Repositorios\IPC2_Practica2_202505058_2S2026\ReproductorMusical\obj\Debug\net10.0-windows\ReproductorMusical.csproj.GenerateResource.cache
