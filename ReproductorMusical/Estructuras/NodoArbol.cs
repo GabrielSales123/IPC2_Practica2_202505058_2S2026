@@ -1,18 +1,18 @@
 using ReproductorMusical.Models;
-namespace ReproductorMusaical.Estructuras
+namespace ReproductorMusical.Estructuras
 {
     public class NodoArbol
     {
         private NodoArbol? padre { get; set; }
         private NodoArbol? izquierdo { get; set; }
         private NodoArbol? derecho { get; set; }
-        private int llave { get; set; }
+        private string llave { get; set; }
         private Cancion cancion { get; set; }
 
 
-        public NodoArbol(int llave, Cancion cancion)
+        public NodoArbol(string llave, Cancion cancion)
         {
-            this.llave = llave;
+            this.llave = cancion.getTitulo();
             this.cancion = cancion;
             this.izquierdo = null;
             this.derecho = null;
@@ -45,11 +45,11 @@ namespace ReproductorMusaical.Estructuras
         {
             this.padre = padre;
         }
-        public int getLlave()
+        public string getLlave()
         {
             return this.llave;
         }
-        public void setLlave(int llave)
+        public void setLlave(string llave)
         {
             this.llave = llave;
         }
