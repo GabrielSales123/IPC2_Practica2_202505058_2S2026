@@ -10,7 +10,7 @@ namespace ReproductorMusical.Estructuras
         private Cancion cancion { get; set; }
 
 
-        public NodoArbol(string llave, Cancion cancion)
+        public NodoArbol(Cancion cancion)
         {
             this.llave = cancion.getTitulo();
             this.cancion = cancion;

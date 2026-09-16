@@ -5,7 +5,6 @@ namespace ReproductorMusical.Models
     {
         private string titulo;
         private string artista;
-        private string album;
         private string genero;
         private int duracion;
 
@@ -13,7 +12,6 @@ namespace ReproductorMusical.Models
         {
             this.titulo = titulo;
             this.artista = artista;
-            this.album = album;
             this.genero = genero;
             this.duracion = duracion;
         }
@@ -36,16 +34,6 @@ namespace ReproductorMusical.Models
         public void setArtista(string artista)
         {
             this.artista = artista;
-        }
-
-        public string getAlbum()
-        {
-            return album;
-        }
-
-        public void setAlbum(string album)
-        {
-            this.album = album;
         }
 
         public string getGenero()

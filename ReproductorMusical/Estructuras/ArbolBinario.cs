@@ -12,7 +12,7 @@ namespace ReproductorMusical.Estructuras
 
         public void insertar(Cancion cancion)
         {
-            NodoArbol nuevoNodo = new NodoArbol(cancion.getTitulo(), cancion);
+            NodoArbol nuevoNodo = new NodoArbol(cancion);
             if (this.raiz == null)
             {
                 this.raiz = nuevoNodo;

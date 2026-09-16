@@ -22,6 +22,7 @@ namespace ReproductorMusical.Estructuras
             }
             else
             {
+                if(this.final == null){return;}
                 this.final.setSiguiente(nuevoNodo);
                 this.final = nuevoNodo;
             }
