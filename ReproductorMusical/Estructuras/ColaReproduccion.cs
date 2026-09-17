@@ -50,5 +50,10 @@ namespace ReproductorMusical.Estructuras
         {
             return this.inicio == null;
         }
+
+        public NodoCola? getInicio()
+        {
+            return this.inicio;
+        }
     }
 }

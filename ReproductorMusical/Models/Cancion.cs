@@ -3,12 +3,20 @@ namespace ReproductorMusical.Models
 {
     public class Cancion
     {
-        private string titulo;
-        private string artista;
-        private string genero;
-        private int duracion;
+        public string titulo { get; set; }
+        public string artista { get; set; }
+        public string genero { get; set; }
+        public int duracion { get; set; }
 
-        public Cancion(string titulo, string artista, string album, string genero, int duracion)
+        public Cancion()
+        {
+            this.titulo = string.Empty;
+            this.artista = string.Empty;
+            this.genero = string.Empty;
+            this.duracion = 0;
+        }
+
+        public Cancion(string titulo, string artista, string genero, int duracion)
         {
             this.titulo = titulo;
             this.artista = artista;

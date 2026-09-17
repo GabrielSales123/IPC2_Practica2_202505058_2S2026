@@ -61,7 +61,7 @@ namespace ReproductorMusical.Estructuras
             }
         }
 
-        public Cancion? buscar(string llave)
+        public NodoArbol? buscar(string llave)
         {
             NodoArbol? aux = this.raiz;
             if (aux == null)
@@ -73,7 +73,7 @@ namespace ReproductorMusical.Estructuras
                 return recursividadBuscar(aux, llave);
             }
         }
-        public Cancion? recursividadBuscar(NodoArbol? aux, String llave)
+        public NodoArbol? recursividadBuscar(NodoArbol? aux, String llave)
         {
             if (aux == null)
             {
@@ -83,7 +83,7 @@ namespace ReproductorMusical.Estructuras
             int comparacion = string.Compare(llave, aux.getLlave());
             if (comparacion == 0)
             {
-                return aux.getCancion();
+                return aux;
             }
             else if (comparacion < 0)
             {
@@ -107,6 +107,10 @@ namespace ReproductorMusical.Estructuras
                     return recursividadBuscar(aux.getDerecho(), llave);
                 }
             }
+        }
+        public NodoArbol getRaiz()
+        {
+            return this.raiz;
         }
     }
 }
