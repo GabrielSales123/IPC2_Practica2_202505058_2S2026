@@ -1,8 +1,10 @@
 using System;
+using System.ComponentModel;
 using System.Windows.Forms;
 using ReproductorMusical.Estructuras;
 using ReproductorMusical.Services;
 using ReproductorMusical.Models;
+using ReproductorMusical.Graphviz;
 
 
 namespace ReproductorMusical.Forms
@@ -14,15 +16,18 @@ namespace ReproductorMusical.Forms
         private CancionService? cancionService;
         private NodoCola? aux;
         private NodoArbol? busqueda;
+        private readonly GraphvizService graphvizService;
         public VentanaPrincipal()
         {
             InitializeComponent();
             cola = new ColaReproduccion();
             arbol = new ArbolBinario();
             cancionService = new CancionService();
+            graphvizService = new GraphvizService();
             cargarCanciones();
             cargarPlaylist();
             aux = cola.getInicio();
+            actualizarDiagramas();
         }
 
         public void play(){
@@ -58,13 +63,42 @@ namespace ReproductorMusical.Forms
 
         private void siguiente()
         {
-            if (aux == null || aux.getSiguiente() == null)
+            if (cola == null || aux == null)
             {
                 reproduccionTxt.Text = "La cola esta vacia";
                 return;
             }
-            aux = aux.getSiguiente();
+
+            cola.desencolar();
+            aux = cola.getInicio();
+            cargarPlaylist();
+            actualizarDiagramas();
+            if (aux == null)
+            {
+                reproduccionTxt.Text = "La cola esta vacia";
+                return;
+            }
             play();
+        }
+
+        private void actualizarDiagramas()
+        {
+            if (cola == null || arbol == null)
+            {
+                return;
+            }
+
+            try
+            {
+                graphvizService.GenerarCola(cola);
+                graphvizService.GenerarArbol(arbol);
+            }
+            catch (Win32Exception)
+            {
+            }
+            catch (InvalidOperationException)
+            {
+            }
         }
 
         private void cargarPlaylist(){
@@ -139,6 +173,16 @@ namespace ReproductorMusical.Forms
         }
 
         private void DuraciontotalTxt_Click(object sender, System.EventArgs e)
+        {
+
+        }
+
+        private void ErrorTxt_Click(object sender, System.EventArgs e)
+        {
+
+        }
+
+        private void ReproduccionTxt_Click(object sender, System.EventArgs e)
         {
 
         }

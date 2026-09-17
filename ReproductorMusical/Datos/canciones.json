@@ -22,5 +22,53 @@
     "artista": "Ludwig van Beethoven",
     "genero": "Clásica",
     "duracion": 8
+  },
+  {
+    "titulo": "Imagine",
+    "artista": "John Lennon",
+    "genero": "Pop",
+    "duracion": 3
+  },
+  {
+    "titulo": "Hotel California",
+    "artista": "Eagles",
+    "genero": "Rock",
+    "duracion": 6
+  },
+  {
+    "titulo": "Autumn Leaves",
+    "artista": "Miles Davis",
+    "genero": "Jazz",
+    "duracion": 5
+  },
+  {
+    "titulo": "Yesterday",
+    "artista": "The Beatles",
+    "genero": "Pop",
+    "duracion": 3
+  },
+  {
+    "titulo": "Smells Like Teen Spirit",
+    "artista": "Nirvana",
+    "genero": "Rock",
+    "duracion": 5
+  },
+  {
+    "titulo": "Clair de Lune",
+    "artista": "Claude Debussy",
+    "genero": "Clásica",
+    "duracion": 5
+  },
+  {
+    "titulo": "Stairway to Heaven",
+    "artista": "Led Zeppelin",
+    "genero": "Rock",
+    "duracion": 8
+  },
+  {
+    "titulo": "Come Together",
+    "artista": "The Beatles",
+    "genero": "Rock",
+    "duracion": 4
   }
 ]

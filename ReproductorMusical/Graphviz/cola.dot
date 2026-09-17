@@ -1,0 +1,16 @@
+digraph Cola {
+rankdir=LR; node [shape=box, style=filled, fillcolor=lightblue];
+c0 [label="Hotel California"];
+c1 [label="Autumn Leaves"];
+c0 -> c1;
+c2 [label="Yesterday"];
+c1 -> c2;
+c3 [label="Smells Like Teen Spirit"];
+c2 -> c3;
+c4 [label="Clair de Lune"];
+c3 -> c4;
+c5 [label="Stairway to Heaven"];
+c4 -> c5;
+c6 [label="Come Together"];
+c5 -> c6;
+}

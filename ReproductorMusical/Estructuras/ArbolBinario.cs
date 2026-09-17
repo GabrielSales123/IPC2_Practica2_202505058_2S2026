@@ -73,6 +73,10 @@ namespace ReproductorMusical.Estructuras
                 return recursividadBuscar(aux, llave);
             }
         }
+        public NodoArbol? getRaiz()
+        {
+            return this.raiz;
+        }
         public NodoArbol? recursividadBuscar(NodoArbol? aux, String llave)
         {
             if (aux == null)

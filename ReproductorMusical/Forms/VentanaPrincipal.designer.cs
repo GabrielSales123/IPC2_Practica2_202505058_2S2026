@@ -53,10 +53,11 @@ namespace ReproductorMusical.Forms
             // label1
             // 
             this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.Black;
-            this.label1.Location = new System.Drawing.Point(36, 58);
+            this.label1.Location = new System.Drawing.Point(252, 177);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(39, 13);
+            this.label1.Size = new System.Drawing.Size(62, 21);
             this.label1.TabIndex = 0;
             this.label1.Text = "Titulo: ";
             this.label1.Click += new System.EventHandler(this.Label1_Click);
@@ -64,20 +65,21 @@ namespace ReproductorMusical.Forms
             // tituloTxt
             // 
             this.tituloTxt.AutoSize = true;
+            this.tituloTxt.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tituloTxt.ForeColor = System.Drawing.Color.Black;
-            this.tituloTxt.Location = new System.Drawing.Point(81, 58);
+            this.tituloTxt.Location = new System.Drawing.Point(310, 177);
             this.tituloTxt.Name = "tituloTxt";
-            this.tituloTxt.Size = new System.Drawing.Size(11, 13);
+            this.tituloTxt.Size = new System.Drawing.Size(0, 21);
             this.tituloTxt.TabIndex = 1;
-            this.tituloTxt.Text = "*";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.Black;
-            this.label2.Location = new System.Drawing.Point(36, 75);
+            this.label2.Location = new System.Drawing.Point(252, 194);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(39, 13);
+            this.label2.Size = new System.Drawing.Size(63, 21);
             this.label2.TabIndex = 2;
             this.label2.Text = "Artista:";
             this.label2.Click += new System.EventHandler(this.Label2_Click);
@@ -85,57 +87,59 @@ namespace ReproductorMusical.Forms
             // artistaTxt
             // 
             this.artistaTxt.AutoSize = true;
+            this.artistaTxt.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.artistaTxt.ForeColor = System.Drawing.Color.Black;
-            this.artistaTxt.Location = new System.Drawing.Point(81, 75);
+            this.artistaTxt.Location = new System.Drawing.Point(310, 193);
             this.artistaTxt.Name = "artistaTxt";
-            this.artistaTxt.Size = new System.Drawing.Size(35, 13);
+            this.artistaTxt.Size = new System.Drawing.Size(0, 21);
             this.artistaTxt.TabIndex = 3;
-            this.artistaTxt.Text = "label3";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.Black;
-            this.label3.Location = new System.Drawing.Point(36, 92);
+            this.label3.Location = new System.Drawing.Point(252, 211);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(48, 13);
+            this.label3.Size = new System.Drawing.Size(75, 21);
             this.label3.TabIndex = 4;
             this.label3.Text = "Genero: ";
             // 
             // generoTxt
             // 
             this.generoTxt.AutoSize = true;
+            this.generoTxt.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.generoTxt.ForeColor = System.Drawing.Color.Black;
-            this.generoTxt.Location = new System.Drawing.Point(81, 92);
+            this.generoTxt.Location = new System.Drawing.Point(321, 211);
             this.generoTxt.Name = "generoTxt";
-            this.generoTxt.Size = new System.Drawing.Size(35, 13);
+            this.generoTxt.Size = new System.Drawing.Size(0, 21);
             this.generoTxt.TabIndex = 5;
-            this.generoTxt.Text = "label4";
             // 
             // label4
             // 
             this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.Color.Black;
-            this.label4.Location = new System.Drawing.Point(36, 109);
+            this.label4.Location = new System.Drawing.Point(252, 228);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(53, 13);
+            this.label4.Size = new System.Drawing.Size(83, 21);
             this.label4.TabIndex = 6;
             this.label4.Text = "Duración:";
             // 
             // duracionTxt
             // 
             this.duracionTxt.AutoSize = true;
+            this.duracionTxt.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.duracionTxt.ForeColor = System.Drawing.Color.Black;
-            this.duracionTxt.Location = new System.Drawing.Point(96, 109);
+            this.duracionTxt.Location = new System.Drawing.Point(333, 228);
             this.duracionTxt.Name = "duracionTxt";
-            this.duracionTxt.Size = new System.Drawing.Size(35, 13);
+            this.duracionTxt.Size = new System.Drawing.Size(0, 21);
             this.duracionTxt.TabIndex = 7;
-            this.duracionTxt.Text = "label5";
             // 
             // siguienteBtn
             // 
             this.siguienteBtn.ForeColor = System.Drawing.Color.Black;
-            this.siguienteBtn.Location = new System.Drawing.Point(431, 331);
+            this.siguienteBtn.Location = new System.Drawing.Point(418, 331);
             this.siguienteBtn.Name = "siguienteBtn";
             this.siguienteBtn.Size = new System.Drawing.Size(70, 51);
             this.siguienteBtn.TabIndex = 8;
@@ -145,7 +149,7 @@ namespace ReproductorMusical.Forms
             // 
             // busquedaTextBox
             // 
-            this.busquedaTextBox.Location = new System.Drawing.Point(573, 58);
+            this.busquedaTextBox.Location = new System.Drawing.Point(595, 51);
             this.busquedaTextBox.Name = "busquedaTextBox";
             this.busquedaTextBox.Size = new System.Drawing.Size(170, 20);
             this.busquedaTextBox.TabIndex = 9;
@@ -154,7 +158,7 @@ namespace ReproductorMusical.Forms
             // 
             this.label5.AutoSize = true;
             this.label5.ForeColor = System.Drawing.Color.Black;
-            this.label5.Location = new System.Drawing.Point(524, 61);
+            this.label5.Location = new System.Drawing.Point(546, 54);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(43, 13);
             this.label5.TabIndex = 10;
@@ -163,7 +167,7 @@ namespace ReproductorMusical.Forms
             // buscarBtn
             // 
             this.buscarBtn.ForeColor = System.Drawing.Color.Black;
-            this.buscarBtn.Location = new System.Drawing.Point(586, 119);
+            this.buscarBtn.Location = new System.Drawing.Point(606, 117);
             this.buscarBtn.Name = "buscarBtn";
             this.buscarBtn.Size = new System.Drawing.Size(148, 23);
             this.buscarBtn.TabIndex = 11;
@@ -175,57 +179,59 @@ namespace ReproductorMusical.Forms
             // 
             this.errorTxt.AutoSize = true;
             this.errorTxt.ForeColor = System.Drawing.Color.Black;
-            this.errorTxt.Location = new System.Drawing.Point(586, 92);
+            this.errorTxt.Location = new System.Drawing.Point(595, 86);
             this.errorTxt.Name = "errorTxt";
-            this.errorTxt.Size = new System.Drawing.Size(35, 13);
+            this.errorTxt.Size = new System.Drawing.Size(0, 13);
             this.errorTxt.TabIndex = 12;
-            this.errorTxt.Text = "label6";
+            this.errorTxt.Click += new System.EventHandler(this.ErrorTxt_Click);
             // 
             // label6
             // 
             this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("Microsoft YaHei", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.ForeColor = System.Drawing.Color.Black;
-            this.label6.Location = new System.Drawing.Point(36, 176);
+            this.label6.Location = new System.Drawing.Point(29, 67);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(31, 13);
+            this.label6.Size = new System.Drawing.Size(39, 19);
             this.label6.TabIndex = 13;
             this.label6.Text = "Cola:";
             // 
             // colaTxt
             // 
             this.colaTxt.AutoSize = true;
+            this.colaTxt.Font = new System.Drawing.Font("Microsoft YaHei", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.colaTxt.ForeColor = System.Drawing.Color.Black;
-            this.colaTxt.Location = new System.Drawing.Point(36, 193);
+            this.colaTxt.Location = new System.Drawing.Point(29, 86);
             this.colaTxt.Name = "colaTxt";
-            this.colaTxt.Size = new System.Drawing.Size(35, 13);
+            this.colaTxt.Size = new System.Drawing.Size(0, 19);
             this.colaTxt.TabIndex = 14;
-            this.colaTxt.Text = "label7";
             this.colaTxt.Click += new System.EventHandler(this.Label7_Click);
             // 
             // reproduccionTxt
             // 
             this.reproduccionTxt.AutoSize = true;
             this.reproduccionTxt.ForeColor = System.Drawing.Color.Black;
-            this.reproduccionTxt.Location = new System.Drawing.Point(347, 305);
+            this.reproduccionTxt.Location = new System.Drawing.Point(322, 303);
             this.reproduccionTxt.Name = "reproduccionTxt";
-            this.reproduccionTxt.Size = new System.Drawing.Size(35, 13);
+            this.reproduccionTxt.Size = new System.Drawing.Size(0, 13);
             this.reproduccionTxt.TabIndex = 15;
-            this.reproduccionTxt.Text = "label7";
+            this.reproduccionTxt.Click += new System.EventHandler(this.ReproduccionTxt_Click);
             // 
             // label7
             // 
             this.label7.AutoSize = true;
+            this.label7.Font = new System.Drawing.Font("MS Reference Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label7.ForeColor = System.Drawing.Color.Black;
-            this.label7.Location = new System.Drawing.Point(36, 32);
+            this.label7.Location = new System.Drawing.Point(308, 77);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(93, 13);
+            this.label7.Size = new System.Drawing.Size(180, 24);
             this.label7.TabIndex = 16;
             this.label7.Text = "En Reproducción:";
             // 
             // playBtn
             // 
             this.playBtn.ForeColor = System.Drawing.Color.Black;
-            this.playBtn.Location = new System.Drawing.Point(331, 331);
+            this.playBtn.Location = new System.Drawing.Point(290, 331);
             this.playBtn.Name = "playBtn";
             this.playBtn.Size = new System.Drawing.Size(75, 51);
             this.playBtn.TabIndex = 17;
@@ -236,10 +242,11 @@ namespace ReproductorMusical.Forms
             // duraciontotalTxt
             // 
             this.duraciontotalTxt.AutoSize = true;
+            this.duraciontotalTxt.Font = new System.Drawing.Font("Microsoft YaHei", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.duraciontotalTxt.ForeColor = System.Drawing.Color.Black;
-            this.duraciontotalTxt.Location = new System.Drawing.Point(36, 163);
+            this.duraciontotalTxt.Location = new System.Drawing.Point(29, 48);
             this.duraciontotalTxt.Name = "duraciontotalTxt";
-            this.duraciontotalTxt.Size = new System.Drawing.Size(116, 13);
+            this.duraciontotalTxt.Size = new System.Drawing.Size(151, 19);
             this.duraciontotalTxt.TabIndex = 18;
             this.duraciontotalTxt.Text = "Duracion de la playlist: ";
             this.duraciontotalTxt.Click += new System.EventHandler(this.DuraciontotalTxt_Click);
@@ -269,7 +276,7 @@ namespace ReproductorMusical.Forms
             this.Controls.Add(this.tituloTxt);
             this.Controls.Add(this.label1);
             this.Name = "VentanaPrincipal";
-            this.Text = "VentanaPrincipal";
+            this.Text = "Reproductor Musical";
             this.Load += new System.EventHandler(this.VentanaPrincipal_Load);
             this.ResumeLayout(false);
             this.PerformLayout();

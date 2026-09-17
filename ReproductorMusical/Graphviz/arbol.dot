@@ -1,0 +1,26 @@
+digraph Arbol {
+node [shape=box, style=filled, fillcolor=lightgreen];
+n0 [label="Bohemian Rhapsody"];
+n0i [label="Blinding Lights"];
+n0 -> n0i [label="izq"];
+n0ii [label="Autumn Leaves"];
+n0i -> n0ii [label="izq"];
+n0d [label="Take Five"];
+n0 -> n0d [label="der"];
+n0di [label="Für Elise"];
+n0d -> n0di [label="izq"];
+n0dii [label="Clair de Lune"];
+n0di -> n0dii [label="izq"];
+n0diid [label="Come Together"];
+n0dii -> n0diid [label="der"];
+n0did [label="Imagine"];
+n0di -> n0did [label="der"];
+n0didi [label="Hotel California"];
+n0did -> n0didi [label="izq"];
+n0didd [label="Smells Like Teen Spirit"];
+n0did -> n0didd [label="der"];
+n0diddd [label="Stairway to Heaven"];
+n0didd -> n0diddd [label="der"];
+n0dd [label="Yesterday"];
+n0d -> n0dd [label="der"];
+}
