@@ -108,9 +108,6 @@ namespace ReproductorMusical.Estructuras
                 }
             }
         }
-        public NodoArbol getRaiz()
-        {
-            return this.raiz;
-        }
+        
     }
 }

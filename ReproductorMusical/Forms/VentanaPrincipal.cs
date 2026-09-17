@@ -21,8 +21,8 @@ namespace ReproductorMusical.Forms
             arbol = new ArbolBinario();
             cancionService = new CancionService();
             cargarCanciones();
+            cargarPlaylist();
             aux = cola.getInicio();
-            play();
         }
 
         public void play(){
@@ -60,10 +60,32 @@ namespace ReproductorMusical.Forms
         {
             if (aux == null || aux.getSiguiente() == null)
             {
+                reproduccionTxt.Text = "La cola esta vacia";
                 return;
             }
             aux = aux.getSiguiente();
             play();
+        }
+
+        private void cargarPlaylist(){
+            if (cola == null)
+            {
+                return;
+            }
+
+            NodoCola? nodoActual = cola.getInicio();
+            colaTxt.Text = string.Empty;
+            int tiempo = 0;
+            int contador = 1; 
+            while (nodoActual != null)
+            {
+                colaTxt.Text += Environment.NewLine +contador+".[" + nodoActual.getCancion().getTitulo() + "]";
+                tiempo += nodoActual.getCancion().getDuracion();
+                nodoActual = nodoActual.getSiguiente();
+                contador ++;
+            }
+            
+            duraciontotalTxt.Text = "Duracion de la Playlist: "+tiempo.ToString() +" m";
         }
 
         private void Label1_Click(object sender, System.EventArgs e)
@@ -85,10 +107,8 @@ namespace ReproductorMusical.Forms
             {
                 return;
             }
-
             string tituloBuscado = busquedaTextBox.Text.Trim();
             errorTxt.Text = string.Empty;
-
             if (string.IsNullOrWhiteSpace(tituloBuscado))
             {
                 errorTxt.Text = "Escribe el título de una canción";
@@ -106,6 +126,20 @@ namespace ReproductorMusical.Forms
             artistaTxt.Text = busqueda.getCancion().getArtista();
             generoTxt.Text = busqueda.getCancion().getGenero();
             duracionTxt.Text = busqueda.getCancion().getDuracion().ToString();
+
+        }
+        private void playBtn_Click(object sender, System.EventArgs e){
+            play();
+            playBtn.Text = "||";
+        }
+
+        private void Label7_Click(object sender, System.EventArgs e)
+        {
+
+        }
+
+        private void DuraciontotalTxt_Click(object sender, System.EventArgs e)
+        {
 
         }
     }
